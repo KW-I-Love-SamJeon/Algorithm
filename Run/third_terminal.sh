@@ -1,0 +1,1 @@
+roslaunch kimera_semantics_ros kimera_semantics_euroc.launch
