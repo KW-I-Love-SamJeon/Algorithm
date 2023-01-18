@@ -45,11 +45,11 @@ wstool merge Kimera-Semantics/install/kimera_semantics_https.rosinstall
 wstool update
 
 cd gtsam
-git checkout -b 4.1.1
+git checkout tags/4.1.1
 cd ..
 
 # Compile code
-catkin build kimera_semantics_ros
+catkin build
 
 # Refresh workspace
 source ~/catkin_ws/devel/setup.bash
